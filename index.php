@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-asdfasdf
 <head>
     <meta charset="utf-8">
     <title>Assignment 6</title>
