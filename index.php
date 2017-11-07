@@ -34,6 +34,7 @@
 			<form method="post" action="database_action.php">
 
 				<label for="name"> Name: </label>
+				<i class="material-icons prefix">account_circle</i>
 				<input type="text" name="name" id="name"><br><br>
 
 				<label for="email">Email: </label>
