@@ -16,6 +16,8 @@
 </head>
 
 <body>
+	
+	<div class="container">
 
 	<header>
 
@@ -32,14 +34,24 @@
 		<h2>User Survey</h2> 
 
 			<form method="post" action="database_action.php">
-
-				<label for="name"> Name: </label>
-				<i class="material-icons prefix">account_circle</i>
-				<input type="text" name="name" id="name"><br><br>
-
-				<label for="email">Email: </label>
-				<input type="email" name="email" id="email"><br><br>
+			
+			<div class="row">
+			
+				<div class="input-field col s6">
+					<i class="material-icons prefix">account_circle</i>
+					<label for="name"> Name: </label>
+					<input type="text" name="name" id="name">
+				</div>
 				
+				<div class="input-field col s6">
+					<i class="material-icons prefix">email</i>
+					<input type="email" name="email" id="email" class="validate">
+					<label for="email" data-error="Please enter a valid email">Email: </label>
+					
+					
+				</div>
+			
+			</div>
 
 			<fieldset>
 
@@ -131,6 +143,8 @@
 
 			<fieldset>
 				<legend>Suggestions</legend>
+				
+				<div class="row">
 
 					<label for="suggestion">What kind of features would you like to see added or upgraded?</label><br>
 					<textarea name="suggestion" id="suggestion"></textarea><br><br><br>
@@ -139,10 +153,14 @@
 					<textarea name="recommend" id="recommend"></textarea><br>
 					
 					<input type="submit" name="Submit"><br>
+					
+				</div>
 
 			</fieldset>
 				
 			</form>
+			
+		</div>
 
 <!-- Downloading jQuery and Materialize -->
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
