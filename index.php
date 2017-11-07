@@ -205,7 +205,7 @@
 						<label for="recommend">Do you recommend any other front-end frameworks not listed in this survey?</label>
 					</div>
 					
-					<input type="submit" name="Submit">
+					<button class="btn waves-effect waves-light" type="submit" name="Submit">Submit</button>
 					
 				</div>
 
