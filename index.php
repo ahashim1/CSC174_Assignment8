@@ -145,12 +145,17 @@
 				<legend>Suggestions</legend>
 				
 				<div class="row">
+				
+					<div class="input-field col s12">
+						<textarea name="suggestion" id="suggestion" class="materialize-textarea"></textarea>
+						<label for="suggestion">What kind of features would you like to see added or upgraded?</label>
+					</div>
+					
 
-					<label for="suggestion">What kind of features would you like to see added or upgraded?</label><br>
-					<textarea name="suggestion" id="suggestion"></textarea><br><br><br>
-
-					<label for="recommend">Do you recommend any other front-end frameworks not listed in this survey?</label><br>
-					<textarea name="recommend" id="recommend"></textarea><br>
+					<div class="input-field col s12">
+						<textarea name="recommend" id="recommend" class="materialize-textarea"></textarea>
+						<label for="recommend">Do you recommend any other front-end frameworks not listed in this survey?</label>
+					</div>
 					
 					<input type="submit" name="Submit"><br>
 					
