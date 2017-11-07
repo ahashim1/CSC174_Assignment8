@@ -59,38 +59,56 @@
 
 				<h3>What is your favorite front-end framework?</h3>
 				
+					<p>
+						<input type="radio" name="framework" id="bootstrap" class="with-gap">
+						<label for="bootstrap">Bootstrap</label>
+					</p>
+
+					<p>
+						<input type="radio" name="framework" id="foundation" class="with-gap">
+						<label for="foundation">Foundation</label>
+					</p>
 					
-					<input type="radio" name="framework" id="bootstrap">
-					<label for="bootstrap">Bootstrap</label><br>
-
-					<input type="radio" name="framework" id="foundation">
-					<label for="foundation">Foundation</label><br>
-
-					<input type="radio" name="framework" id="stylus">
-					<label for="stylus">Stylus</label><br>
-
-					<input type="radio" name="framework" id="materialize">
-					<label for="materialize">Materialize</label><br>
-
-					<input type="radio" name="framework" id="semantic">
-					<label for="semantic">Semantic UI</label><br>
-
-					<input type="radio" name="framework" id="pure">
-					<label for="pure">Pure</label><br>
-
-					<input type="radio" name="framework" id="uikit">
-					<label for="uikit">UIKit</label><br>
-
-					<input type="radio" name="framework" id="milligram">
-					<label for="milligram">Milligram</label><br>
+					<p>
+						<input type="radio" name="framework" id="stylus" class="with-gap">
+						<label for="stylus">Stylus</label>
+					</p>
 					
-					<input type="radio" name="framework" id="skeleton">
-					<label for="skeleton">Skeleton</label><br>
+					<p>
+						<input type="radio" name="framework" id="materialize" class="with-gap">
+						<label for="materialize">Materialize</label><br>
+					</p>
 					
-					<input type="radio" name="framework" id="susy">
-					<label for="susy">Susy</label><br>
-
-
+					<p>
+						<input type="radio" name="framework" id="semantic" class="with-gap">
+						<label for="semantic">Semantic UI</label><br>
+					</p>
+					
+					<p>
+						<input type="radio" name="framework" id="pure" class="with-gap">
+						<label for="pure">Pure</label><br>
+					</p>
+					
+					<p>
+						<input type="radio" name="framework" id="uikit" class="with-gap">
+						<label for="uikit">UIKit</label><br>
+					</p>
+					
+					<p>
+						<input type="radio" name="framework" id="milligram" class="with-gap">
+						<label for="milligram">Milligram</label><br>
+					</p>
+					
+					<p>
+						<input type="radio" name="framework" id="skeleton" class="with-gap">
+						<label for="skeleton">Skeleton</label><br>
+					</p>
+					
+					<p>
+						<input type="radio" name="framework" id="susy" class="with-gap">
+						<label for="susy">Susy</label><br>
+					</p>
+	
 				<h3>Which features of this front-end framework appeals to you?</h3>
 					
 					<input type="checkbox" name="feature" id="flex">
