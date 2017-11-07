@@ -79,37 +79,37 @@
 					
 					<p>
 						<input type="radio" name="framework" id="materialize" class="with-gap">
-						<label for="materialize">Materialize</label><br>
+						<label for="materialize">Materialize</label>
 					</p>
 					
 					<p>
 						<input type="radio" name="framework" id="semantic" class="with-gap">
-						<label for="semantic">Semantic UI</label><br>
+						<label for="semantic">Semantic UI</label>
 					</p>
 					
 					<p>
 						<input type="radio" name="framework" id="pure" class="with-gap">
-						<label for="pure">Pure</label><br>
+						<label for="pure">Pure</label>
 					</p>
 					
 					<p>
 						<input type="radio" name="framework" id="uikit" class="with-gap">
-						<label for="uikit">UIKit</label><br>
+						<label for="uikit">UIKit</label>
 					</p>
 					
 					<p>
 						<input type="radio" name="framework" id="milligram" class="with-gap">
-						<label for="milligram">Milligram</label><br>
+						<label for="milligram">Milligram</label>
 					</p>
 					
 					<p>
 						<input type="radio" name="framework" id="skeleton" class="with-gap">
-						<label for="skeleton">Skeleton</label><br>
+						<label for="skeleton">Skeleton</label>
 					</p>
 					
 					<p>
 						<input type="radio" name="framework" id="susy" class="with-gap">
-						<label for="susy">Susy</label><br>
+						<label for="susy">Susy</label>
 					</p>
 	
 				<h3>Which features of this front-end framework appeals to you?</h3>
@@ -195,17 +195,17 @@
 				<div class="row">
 				
 					<div class="input-field col s12">
-						<textarea name="suggestion" id="suggestion" class="materialize-textarea"></textarea>
+						<textarea name="suggestion" id="suggestion" class="materialize-textarea" data-length="300"></textarea>
 						<label for="suggestion">What kind of features would you like to see added or upgraded?</label>
 					</div>
 					
 
 					<div class="input-field col s12">
-						<textarea name="recommend" id="recommend" class="materialize-textarea"></textarea>
+						<textarea name="recommend" id="recommend" class="materialize-textarea" data-length="300"></textarea>
 						<label for="recommend">Do you recommend any other front-end frameworks not listed in this survey?</label>
 					</div>
 					
-					<input type="submit" name="Submit"><br>
+					<input type="submit" name="Submit">
 					
 				</div>
 
