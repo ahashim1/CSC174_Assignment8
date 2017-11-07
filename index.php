@@ -111,51 +111,78 @@
 	
 				<h3>Which features of this front-end framework appeals to you?</h3>
 					
-					<input type="checkbox" name="feature" id="flex">
-					<label for="flex">Flexibility</label><br>
-
-					<input type="checkbox" name="feature" id="browser">
-					<label for="browser">Browser Compatability</label><br>
-
-					<input type="checkbox" name="feature" id="community">
-					<label for="community">Community & Popularity</label><br>
-
-					<input type="checkbox" name="feature" id="mobile">
-					<label for="mobile">Mobile Friendly</label><br>
-
-					<input type="checkbox" name="feature" id="stability">
-					<label for="stability">Stability</label><br>
-
-					<input type="checkbox" name="feature" id="speed">
-					<label for="speed">Speed</label><br>
-
-					<input type="checkbox" name="feature" id="readability">
-					<label for="readability">Code Readability</label><br>
-
+					<p>
+						<input type="checkbox" name="feature" id="flex">
+						<label for="flex">Flexibility</label>
+					</p>
+					
+					<p>
+						<input type="checkbox" name="feature" id="browser">
+						<label for="browser">Browser Compatability</label>
+					</p>
+					
+					<p>
+						<input type="checkbox" name="feature" id="community">
+						<label for="community">Community & Popularity</label>
+					</p>
+					
+					<p>
+						<input type="checkbox" name="feature" id="mobile">
+						<label for="mobile">Mobile Friendly</label>
+					</p>
+					
+					<p>
+						<input type="checkbox" name="feature" id="stability">
+						<label for="stability">Stability</label>
+					</p>
+					
+					<p>
+						<input type="checkbox" name="feature" id="speed">
+						<label for="speed">Speed</label>
+					</p>
+					
+					<p>
+						<input type="checkbox" name="feature" id="readability">
+						<label for="readability">Code Readability</label>
+					</p>
+				
 
 				<h3>Which features do you think this front-end framework needs to work on?</h3>
-
-					<input type="checkbox" name="feature" id="flex">
-					<label for="flex">Flexibility</label><br>
-
-					<input type="checkbox" name="feature" id="browser">
-					<label for="browser">Browser Compatability</label><br>
-
-					<input type="checkbox" name="feature" id="community">
-					<label for="community">Community & Popularity</label><br>
-
-					<input type="checkbox" name="feature" id="mobile">
-					<label for="mobile">Mobile Friendly</label><br>
-
-					<input type="checkbox" name="feature" id="stability">
-					<label for="stability">Stability</label><br>
-
-					<input type="checkbox" name="feature" id="speed">
-					<label for="speed">Speed</label><br>
-
-					<input type="checkbox" name="feature" id="readability">
-					<label for="readability">Code Readability</label><br>
-
+					
+					<p>
+						<input type="checkbox" name="feature" id="flex">
+						<label for="flex">Flexibility</label>
+					</p>
+					
+					<p>
+						<input type="checkbox" name="feature" id="browser">
+						<label for="browser">Browser Compatability</label>
+					</p>
+					
+					<p>
+						<input type="checkbox" name="feature" id="community">
+						<label for="community">Community & Popularity</label>
+					</p>
+					
+					<p>
+						<input type="checkbox" name="feature" id="mobile">
+						<label for="mobile">Mobile Friendly</label>
+					</p>
+					
+					<p>
+						<input type="checkbox" name="feature" id="stability">
+						<label for="stability">Stability</label>
+					</p>
+					
+					<p>
+						<input type="checkbox" name="feature" id="speed">
+						<label for="speed">Speed</label>
+					</p>
+					
+					<p>
+						<input type="checkbox" name="feature" id="readability">
+						<label for="readability">Code Readability</label>
+					</p>
 
 			</fieldset>
 
