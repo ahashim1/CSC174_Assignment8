@@ -21,7 +21,7 @@
 	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
 </head>
 
-<body>
+<body class="grey darken-3">
 	
 	<div class="container">
 
@@ -113,7 +113,7 @@
 						<label for="susy">Susy</label>
 					</p>
 	
-				<h3>Which features of this front-end framework appeals to you?</h3>
+				<h3>Which features of this front-end framework are the most important to you?</h3>
 					
 					<p>
 						<input type="checkbox" name="feature" id="flex">
@@ -151,7 +151,7 @@
 					</p>
 				
 
-				<h3>Which features do you think this front-end framework needs to work on?</h3>
+				<h3>Which features do you think this front-end frameworkcan improve on?</h3>
 					
 					<p>
 						<input type="checkbox" name="feature" id="flex">

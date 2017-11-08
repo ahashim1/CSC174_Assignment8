@@ -3,6 +3,11 @@ fieldset{
 	margin-bottom:15px;
 }
 
-h2{
-	font-size:140%;
+body{
+	color:#eeeeee;
+}
+
+h1{
+	color:#ffa726;
+	text-decoration: underline;
 }
