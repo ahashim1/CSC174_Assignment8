@@ -154,38 +154,38 @@
 				<h3>Which features do you think this front-end frameworkcan improve on?</h3>
 					
 					<p>
-						<input type="checkbox" name="feature" id="flex">
-						<label for="flex">Flexibility</label>
+						<input type="checkbox" name="feature" id="flex2">
+						<label for="flex2">Flexibility</label>
 					</p>
 					
 					<p>
-						<input type="checkbox" name="feature" id="browser">
-						<label for="browser">Browser Compatability</label>
+						<input type="checkbox" name="feature" id="browser2">
+						<label for="browser2">Browser Compatability</label>
 					</p>
 					
 					<p>
-						<input type="checkbox" name="feature" id="community">
-						<label for="community">Community & Popularity</label>
+						<input type="checkbox" name="feature" id="community2">
+						<label for="community2">Community & Popularity</label>
 					</p>
 					
 					<p>
-						<input type="checkbox" name="feature" id="mobile">
-						<label for="mobile">Mobile Friendly</label>
+						<input type="checkbox" name="feature" id="mobile2">
+						<label for="mobile2">Mobile Friendly</label>
 					</p>
 					
 					<p>
-						<input type="checkbox" name="feature" id="stability">
-						<label for="stability">Stability</label>
+						<input type="checkbox" name="feature" id="stability2">
+						<label for="stability2">Stability</label>
 					</p>
 					
 					<p>
-						<input type="checkbox" name="feature" id="speed">
-						<label for="speed">Speed</label>
+						<input type="checkbox" name="feature" id="speed2">
+						<label for="speed2">Speed</label>
 					</p>
 					
 					<p>
-						<input type="checkbox" name="feature" id="readability">
-						<label for="readability">Code Readability</label>
+						<input type="checkbox" name="feature" id="readability2">
+						<label for="readability2">Code Readability</label>
 					</p>
 
 			</fieldset>
@@ -207,7 +207,7 @@
 					</div>
 					
 					<div class="center-align">
-					<button class="center btn waves-effect waves-light" type="submit" name="Submit">Submit</button>
+					<button class="orange lighten-1 btn waves-effect waves-light" type="submit" name="Submit">Submit</button>
 					</div>
 					
 				</div>

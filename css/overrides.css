@@ -11,3 +11,32 @@ h1{
 	color:#ffa726;
 	text-decoration: underline;
 }
+
+
+/* label color */
+   .input-field label {
+     color: #ffa726 !important;
+   }
+   /* label focus color */
+   .input-field input:focus + label, .input-field textarea:focus + label {
+     color: #ffa726 !important;
+   }
+   /* label underline focus color */
+   .input-field input:focus, .input-field textarea:focus{
+     border-bottom: 1px solid #ffa726 !important;
+     box-shadow: 0 1px 0 0 #ffa726 !important;
+   }
+   /* valid color */
+   .input-field input[type=text].valid {
+     border-bottom: 1px solid green !important;
+     box-shadow: 0 1px 0 0 green !important;
+   }
+   /* invalid color */
+   .input-field input[type=text].invalid {
+     border-bottom: 1px solid red !important;
+     box-shadow: 0 1px 0 0 red !important;
+   }
+   /* icon prefix focus color */
+   .input-field .prefix.active {
+     color: #ffa726 !important;
+   }
