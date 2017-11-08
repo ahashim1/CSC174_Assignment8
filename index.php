@@ -51,8 +51,6 @@
 					<i class="material-icons prefix">email</i>
 					<input type="email" name="email" id="email" class="validate">
 					<label for="email" data-error="Please enter a valid email">Email: </label>
-					
-					
 				</div>
 			
 			</div>
@@ -64,52 +62,52 @@
 				<h3>What is your favorite front-end framework?</h3>
 				
 					<p>
-						<input type="radio" name="framework" id="bootstrap" class="with-gap">
+						<input type="radio" name="framework" id="bootstrap">
 						<label for="bootstrap">Bootstrap</label>
 					</p>
 
 					<p>
-						<input type="radio" name="framework" id="foundation" class="with-gap">
+						<input type="radio" name="framework" id="foundation">
 						<label for="foundation">Foundation</label>
 					</p>
 					
 					<p>
-						<input type="radio" name="framework" id="stylus" class="with-gap">
+						<input type="radio" name="framework" id="stylus">
 						<label for="stylus">Stylus</label>
 					</p>
 					
 					<p>
-						<input type="radio" name="framework" id="materialize" class="with-gap">
+						<input type="radio" name="framework" id="materialize">
 						<label for="materialize">Materialize</label>
 					</p>
 					
 					<p>
-						<input type="radio" name="framework" id="semantic" class="with-gap">
+						<input type="radio" name="framework" id="semantic">
 						<label for="semantic">Semantic UI</label>
 					</p>
 					
 					<p>
-						<input type="radio" name="framework" id="pure" class="with-gap">
+						<input type="radio" name="framework" id="pure">
 						<label for="pure">Pure</label>
 					</p>
 					
 					<p>
-						<input type="radio" name="framework" id="uikit" class="with-gap">
+						<input type="radio" name="framework" id="uikit">
 						<label for="uikit">UIKit</label>
 					</p>
 					
 					<p>
-						<input type="radio" name="framework" id="milligram" class="with-gap">
+						<input type="radio" name="framework" id="milligram">
 						<label for="milligram">Milligram</label>
 					</p>
 					
 					<p>
-						<input type="radio" name="framework" id="skeleton" class="with-gap">
+						<input type="radio" name="framework" id="skeleton">
 						<label for="skeleton">Skeleton</label>
 					</p>
 					
 					<p>
-						<input type="radio" name="framework" id="susy" class="with-gap">
+						<input type="radio" name="framework" id="susy">
 						<label for="susy">Susy</label>
 					</p>
 	
@@ -151,7 +149,7 @@
 					</p>
 				
 
-				<h3>Which features do you think this front-end frameworkcan improve on?</h3>
+				<h3>Which features do you think this front-end framework can improve on?</h3>
 					
 					<p>
 						<input type="checkbox" name="feature" id="flex2">

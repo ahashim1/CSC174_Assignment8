@@ -40,3 +40,13 @@ h1{
    .input-field .prefix.active {
      color: #ffa726 !important;
    }
+   
+[type="checkbox"]:checked+label:before{
+	border-right: 2px solid #ffa726;
+	border-bottom: 2px solid #ffa726;
+}
+
+[type="radio"]:checked+label:after, [type="radio"].with-gap:checked+label:before, [type="radio"].with-gap:checked+label:after {
+	border: 2px solid #ffa726;
+	background-color: #ffa726;
+}
