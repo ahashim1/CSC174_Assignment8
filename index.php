@@ -16,19 +16,20 @@
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
 	
 	<div class="container">
 
-	<header>
+	<header class="center-align">
 
 		<h1>Front-End Frameworks</h1>
 
 	</header>
-
-		<h2>About</h2>
 
 			<p>Front-end development is all about the parts of a website that the user sees. Using a <em>framework</em> helps construct the wbesite's front-end functionality. Commonly referred to as <em>"CSS frameworks"</em>, front-end frameworks are packages that contain standardized code in files and folders. It provides a starting base for the developer while still allowing flexibility with the final design. A known advantage in using a front-end framework is that it's a shortcut that saves time, understanding that the code works and is actually functional. There are many different frameworks out there and it's up to the developer to decide which is best for them, looking at different factors and what each one offers. This user survey will explore which frameworks are popular among users and what features of those frameworks they're compelled to.</p>
 
@@ -205,7 +206,9 @@
 						<label for="recommend">Do you recommend any other front-end frameworks not listed in this survey?</label>
 					</div>
 					
-					<button class="btn waves-effect waves-light" type="submit" name="Submit">Submit</button>
+					<div class="center-align">
+					<button class="center btn waves-effect waves-light" type="submit" name="Submit">Submit</button>
+					</div>
 					
 				</div>
 
