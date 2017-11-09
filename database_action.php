@@ -29,7 +29,7 @@
 
     // // 2. Perform database query
     $query  = "INSERT INTO frameworkSurvey (";
-    $query .= "  name, email, favoriteFramework, feature, suggestionFeature, suggestionFramework";
+    $query .= "  name, email, favoriteFramework, favoriteFeature, featuresToChange, suggestionFeature, suggestionFramework";
     $query .= ") VALUES (";
     $query .= "  '{$name}', '{$email}', '{$framework}', '{$feature}', '{$improveFeat}', '{$suggestion}', '{$recommend}'";
     $query .= ")";
