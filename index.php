@@ -152,37 +152,37 @@
 				<h3>Which features do you think this front-end framework can improve on?</h3>
 					
 					<p>
-						<input type="checkbox" name="feature" id="flex2">
+						<input type="checkbox" name="improve-feat" id="flex2">
 						<label for="flex2">Flexibility</label>
 					</p>
 					
 					<p>
-						<input type="checkbox" name="feature" id="browser2">
+						<input type="checkbox" name="improve-feat" id="browser2">
 						<label for="browser2">Browser Compatability</label>
 					</p>
 					
 					<p>
-						<input type="checkbox" name="feature" id="community2">
+						<input type="checkbox" name="improve-feat" id="community2">
 						<label for="community2">Community & Popularity</label>
 					</p>
 					
 					<p>
-						<input type="checkbox" name="feature" id="mobile2">
+						<input type="checkbox" name="improve-feat" id="mobile2">
 						<label for="mobile2">Mobile Friendly</label>
 					</p>
 					
 					<p>
-						<input type="checkbox" name="feature" id="stability2">
+						<input type="checkbox" name="improve-feat" id="stability2">
 						<label for="stability2">Stability</label>
 					</p>
 					
 					<p>
-						<input type="checkbox" name="feature" id="speed2">
+						<input type="checkbox" name="improve-feat" id="speed2">
 						<label for="speed2">Speed</label>
 					</p>
 					
 					<p>
-						<input type="checkbox" name="feature" id="readability2">
+						<input type="checkbox" name="improve-feat" id="readability2">
 						<label for="readability2">Code Readability</label>
 					</p>
 
