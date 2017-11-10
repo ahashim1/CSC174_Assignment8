@@ -61,6 +61,8 @@
 
 				<h3>What is your favorite front-end framework?</h3>
 				
+				<div class="boxes">
+				
 					<p>
 						<input type="radio" name="framework" id="bootstrap">
 						<label for="bootstrap">Bootstrap</label>
@@ -110,8 +112,12 @@
 						<input type="radio" name="framework" id="susy">
 						<label for="susy">Susy</label>
 					</p>
+					
+				</div>
 	
 				<h3>Which features of this front-end framework are the most important to you?</h3>
+				
+					<div class="boxes">
 					
 					<p>
 						<input type="checkbox" name="feature" id="flex">
@@ -148,8 +154,11 @@
 						<label for="readability">Code Readability</label>
 					</p>
 				
+					</div>
 
 				<h3>Which features do you think this front-end framework can improve on?</h3>
+				
+					<div class="boxes">
 					
 					<p>
 						<input type="checkbox" name="improve-feat" id="flex2">
@@ -185,6 +194,8 @@
 						<input type="checkbox" name="improve-feat" id="readability2">
 						<label for="readability2">Code Readability</label>
 					</p>
+					
+					</div>
 
 			</fieldset>
 
