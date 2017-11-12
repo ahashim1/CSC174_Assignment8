@@ -11,7 +11,6 @@
 	$query  = "SELECT * FROM `frameworkSurvey` ORDER BY `frameworkSurvey`.`counter` ASC";
 
 	$result = mysqli_query($connection, $query);
-	echo $query;
 
 	
 ?>
@@ -19,11 +18,11 @@
 <!doctype html>
 <html>
 <head>
-	<title>Database Read - Pages</title>
+	<title>Database Read - frameworkSurvey</title>
 </head>
 <body>
 
-	<h1>Database Read - Pages</h1>
+	<h1>Database Read - frameworkSurvey</h1>
 
 	<table border>
 
@@ -42,12 +41,25 @@
 			<td><?php echo $frameworkSurvey["favoriteFeature"]; ?></td>
 			<td><?php echo $frameworkSurvey["suggestionFeature"]; ?></td>
 			<td><?php echo $frameworkSurvey["suggestionFramework"]; ?></td>
+			<td class="contact-delete">
 
+				<form action='edit.php?name="<?php echo $frameworkSurvey['name']; ?>"' method="post">
+        		<input type="hidden" name="name" value="<?php echo $frameworkSurvey['name']; ?>">
+        		
+        		<input type="submit" name="submit" value="Edit">
+    			</form>
 
+    			
+    			<form action='delete.php?name="<?php echo $frameworkSurvey['name']; ?>"' method="post">
+        		<input type="hidden" name="name" value="<?php echo $frameworkSurvey['name']; ?>">
 
+        		<input type="submit" name="submit" value="Delete">
+    			</form>
 
-
+    			
+			</td>
 		</tr>
+
 
 <?php } ?>
 
