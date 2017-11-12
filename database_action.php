@@ -25,7 +25,20 @@
     $suggestion = mysqli_real_escape_string($connection, $suggestion);
     $recommend = mysqli_real_escape_string($connection, $recommend);
 
-    
+
+    // These print each checked box, working on inputting it into database
+    if(isset($_POST['feature']))
+        foreach ($_POST['feature'] as $featureName) {
+            echo $featureName;
+        }
+
+    if(isset($_POST['improveFeat']))
+        foreach ($_POST['improveFeat'] as $improveFeatName) {
+            echo $improveFeatName;
+        }
+
+
+
 
     // // 2. Perform database query
     $query  = "INSERT INTO frameworkSurvey (";

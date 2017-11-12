@@ -78,52 +78,52 @@
 				<div class="boxes">
 				
 					<p>
-						<input type="radio" name="framework" id="bootstrap">
+						<input type="radio" name="framework" id="bootstrap" value="Bootstrap">
 						<label for="bootstrap">Bootstrap</label>
 					</p>
 
 					<p>
-						<input type="radio" name="framework" id="foundation">
+						<input type="radio" name="framework" id="foundation" value="Foundation">
 						<label for="foundation">Foundation</label>
 					</p>
 					
 					<p>
-						<input type="radio" name="framework" id="stylus">
+						<input type="radio" name="framework" id="stylus" value="Stylus">
 						<label for="stylus">Stylus</label>
 					</p>
 					
 					<p>
-						<input type="radio" name="framework" id="materialize">
+						<input type="radio" name="framework" id="materialize" value="Materialize">
 						<label for="materialize">Materialize</label>
 					</p>
 					
 					<p>
-						<input type="radio" name="framework" id="semantic">
+						<input type="radio" name="framework" id="semantic" value="Semantic">
 						<label for="semantic">Semantic UI</label>
 					</p>
 					
 					<p>
-						<input type="radio" name="framework" id="pure">
+						<input type="radio" name="framework" id="pure" value="Pure">
 						<label for="pure">Pure</label>
 					</p>
 					
 					<p>
-						<input type="radio" name="framework" id="uikit">
+						<input type="radio" name="framework" id="uikit" value ="UIKit">
 						<label for="uikit">UIKit</label>
 					</p>
 					
 					<p>
-						<input type="radio" name="framework" id="milligram">
+						<input type="radio" name="framework" id="milligram" value="Milligram">
 						<label for="milligram">Milligram</label>
 					</p>
 					
 					<p>
-						<input type="radio" name="framework" id="skeleton">
+						<input type="radio" name="framework" id="skeleton" value="Skeleton">
 						<label for="skeleton">Skeleton</label>
 					</p>
 					
 					<p>
-						<input type="radio" name="framework" id="susy">
+						<input type="radio" name="framework" id="susy" value="Susy">
 						<label for="susy">Susy</label>
 					</p>
 					
@@ -134,37 +134,37 @@
 					<div class="boxes">
 					
 					<p>
-						<input type="checkbox" name="feature" id="flex">
+						<input type="checkbox" name="feature[]" id="flex" value="Flexibility">
 						<label for="flex">Flexibility</label>
 					</p>
 					
 					<p>
-						<input type="checkbox" name="feature" id="browser">
+						<input type="checkbox" name="feature[]" id="browser" value="Browser Compatability">
 						<label for="browser">Browser Compatability</label>
 					</p>
 					
 					<p>
-						<input type="checkbox" name="feature" id="community">
+						<input type="checkbox" name="feature[]" id="community" value="Community & Popularity">
 						<label for="community">Community & Popularity</label>
 					</p>
 					
 					<p>
-						<input type="checkbox" name="feature" id="mobile">
+						<input type="checkbox" name="feature[]" id="mobile" value="Mobile Friendly">
 						<label for="mobile">Mobile Friendly</label>
 					</p>
 					
 					<p>
-						<input type="checkbox" name="feature" id="stability">
+						<input type="checkbox" name="feature[]" id="stability" value="Stability">
 						<label for="stability">Stability</label>
 					</p>
 					
 					<p>
-						<input type="checkbox" name="feature" id="speed">
+						<input type="checkbox" name="feature[]" id="speed" value="Speed">
 						<label for="speed">Speed</label>
 					</p>
 					
 					<p>
-						<input type="checkbox" name="feature" id="readability">
+						<input type="checkbox" name="feature[]" id="readability" value="Readability">
 						<label for="readability">Code Readability</label>
 					</p>
 				
@@ -175,37 +175,37 @@
 					<div class="boxes">
 					
 					<p>
-						<input type="checkbox" name="improve-feat" id="flex2">
+						<input type="checkbox" name="improveFeat[]" id="flex2" value="Flexibility">
 						<label for="flex2">Flexibility</label>
 					</p>
 					
 					<p>
-						<input type="checkbox" name="improve-feat" id="browser2">
+						<input type="checkbox" name="improveFeat[]" id="browser2" value="Browser Compatability">
 						<label for="browser2">Browser Compatability</label>
 					</p>
 					
 					<p>
-						<input type="checkbox" name="improve-feat" id="community2">
+						<input type="checkbox" name="improveFeat[]" id="community2" value="Community & Popularity">
 						<label for="community2">Community & Popularity</label>
 					</p>
 					
 					<p>
-						<input type="checkbox" name="improve-feat" id="mobile2">
+						<input type="checkbox" name="improveFeat[]" id="mobile2" value="Mobile Friendly">
 						<label for="mobile2">Mobile Friendly</label>
 					</p>
 					
 					<p>
-						<input type="checkbox" name="improve-feat" id="stability2">
+						<input type="checkbox" name="improveFeat[]" id="stability2" value="Stability">
 						<label for="stability2">Stability</label>
 					</p>
 					
 					<p>
-						<input type="checkbox" name="improve-feat" id="speed2">
+						<input type="checkbox" name="improveFeat[]" id="speed2" value="Speed">
 						<label for="speed2">Speed</label>
 					</p>
 					
 					<p>
-						<input type="checkbox" name="improve-feat" id="readability2">
+						<input type="checkbox" name="improveFeat[]" id="readability2" value="Readability">
 						<label for="readability2">Code Readability</label>
 					</p>
 					
