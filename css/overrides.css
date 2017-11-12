@@ -1,3 +1,15 @@
+/* From http://pangrampangram.com/charlevoix-pro/ */
+@font-face{
+	font-family: charl;
+	src: url("fonts/charl.otf") format("opentype");
+}
+
+/* From https://www.behance.net/gallery/30453085/Arciform-Free-Typeface */
+@font-face{
+    font-family: arc;
+    src: url("fonts/arciform.otf") format("opentype");
+}
+
 fieldset{
 	margin-top:15px;
 	margin-bottom:15px;
@@ -9,13 +21,27 @@ body{
 
 h1{
 	color:#eeeeee;
-	text-decoration: underline;
 }
 
+.arc{
+	font-family: arc;
+}
+
+.charl{
+	font-family: charl;
+}
+
+.big{
+
+	font-size: 130%;
+}
 
 /* label color */
    .input-field label {
-     color: #ffa726 !important;
+     color: #eeeeee;
+   }
+   .input-field .active{
+	   color: #ffa726 !important;
    }
    /* label focus color */
    .input-field input:focus + label, .input-field textarea:focus + label {

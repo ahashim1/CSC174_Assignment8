@@ -27,11 +27,13 @@
 
 	<header class="center-align">
 
-		<h1>Front-End Frameworks</h1>
+		<h1 class="arc">Front-End Frameworks</h1>
 
 	</header>
+	
+	<div class="charl">
 
-			<p>Front-end development is all about the parts of a website that the user sees. Using a <em>framework</em> helps construct the wbesite's front-end functionality. Commonly referred to as <em>"CSS frameworks"</em>, front-end frameworks are packages that contain standardized code in files and folders. It provides a starting base for the developer while still allowing flexibility with the final design. A known advantage in using a front-end framework is that it's a shortcut that saves time, understanding that the code works and is actually functional. There are many different frameworks out there and it's up to the developer to decide which is best for them, looking at different factors and what each one offers. This user survey will explore which frameworks are popular among users and what features of those frameworks they're compelled to.</p>
+			<p class="big">Front-end development is all about the parts of a website that the user sees. Using a <em>framework</em> helps construct the wbesite's front-end functionality. Commonly referred to as <em>"CSS frameworks"</em>, front-end frameworks are packages that contain standardized code in files and folders. It provides a starting base for the developer while still allowing flexibility with the final design. A known advantage in using a front-end framework is that it's a shortcut that saves time, understanding that the code works and is actually functional. There are many different frameworks out there and it's up to the developer to decide which is best for them, looking at different factors and what each one offers. This user survey will explore which frameworks are popular among users and what features of those frameworks they're compelled to.</p>
 
 			<!-- "About" content taken from https://www.thebalance.com/what-is-a-front-end-framework-and-why-use-one-2071948 -->
 
@@ -57,7 +59,7 @@
 
 			<fieldset>
 
-				<legend>Front-End Frameworks</legend>
+				<legend class="big">Front-End Frameworks</legend>
 
 				<h3>What is your favorite front-end framework?</h3>
 				
@@ -200,7 +202,7 @@
 			</fieldset>
 
 			<fieldset>
-				<legend>Suggestions</legend>
+				<legend class="big">Suggestions</legend>
 				
 				<div class="row">
 				
@@ -224,6 +226,8 @@
 			</fieldset>
 				
 			</form>
+		
+		</div>
 			
 		</div>
 
@@ -234,3 +238,4 @@
 </body>
 
 </html>
+
