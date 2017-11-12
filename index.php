@@ -37,7 +37,7 @@
 
 			<!-- "About" content taken from https://www.thebalance.com/what-is-a-front-end-framework-and-why-use-one-2071948 -->
 
-		<h2>User Survey</h2> 
+		<h2 class="center-align">User Survey</h2> 
 
 			<form method="post" action="database_action.php">
 			
@@ -208,13 +208,13 @@
 				
 					<div class="input-field col s12">
 						<textarea name="suggestion" id="suggestion" class="materialize-textarea" data-length="300"></textarea>
-						<label for="suggestion">What kind of features would you like to see added or upgraded?</label>
+						<label class="big" for="suggestion">What kind of features would you like to see added or upgraded?</label>
 					</div>
 					
 
 					<div class="input-field col s12">
 						<textarea name="recommend" id="recommend" class="materialize-textarea" data-length="300"></textarea>
-						<label for="recommend">Do you recommend any other front-end frameworks not listed in this survey?</label>
+						<label class="big" for="recommend">Do you recommend any other front-end frameworks not listed in this survey?</label>
 					</div>
 					
 					<div class="center-align">
