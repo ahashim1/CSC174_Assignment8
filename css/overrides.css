@@ -97,6 +97,10 @@ td, table{
 	border: 1px solid #eeeeee;
 }
 
+table{
+	margin-bottom: 25px;
+}
+
 button.save_button{
   display: none;
 }

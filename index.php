@@ -27,7 +27,7 @@
 
 	<header class="center-align">
 
-		<h1 class="arc">Front-End Frameworks</h1>
+		<h1 class="arc"><em>Front-End Frameworks</em></h1>
 
 	</header>
 	
@@ -75,7 +75,7 @@
 
 			<!-- Content taken from https://www.awwwards.com/what-are-frameworks-22-best-responsive-css-frameworks-for-web-design.html and https://www.thebalance.com/what-is-a-front-end-framework-and-why-use-one-2071948-->
 
-		<h2 class="center-align">User Survey</h2> 
+		<h2 class="center-align"><em>User Survey</em></h2> 
 
 			<form method="post" action="database_action.php">
 			
