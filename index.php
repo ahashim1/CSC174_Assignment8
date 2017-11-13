@@ -58,12 +58,12 @@
 				<div class="input-field col s6">
 					<i class="material-icons prefix">account_circle</i>
 					<label for="name"> Name: </label>
-					<input type="text" name="name" id="name">
+					<input type="text" name="name" id="name" required="true">
 				</div>
 				
 				<div class="input-field col s6">
 					<i class="material-icons prefix">email</i>
-					<input type="email" name="email" id="email" class="validate">
+					<input type="email" name="email" id="email" class="validate" required="true">
 					<label for="email" data-error="Please enter a valid email">Email: </label>
 				</div>
 			
