@@ -48,38 +48,29 @@
 <?php
 	// 3. Use returned data (if any)
 	while($frameworkSurvey = mysqli_fetch_assoc($result)) {
-
 		// output data from each row
-?>
+?>	
 
-		<tr>
-			<td><?php echo $frameworkSurvey["name"]; ?></td>
-			<td><?php echo $frameworkSurvey["email"]; ?></td>
-			<td><?php echo $frameworkSurvey["favoriteFramework"]; ?></td>
-			<td><?php echo $frameworkSurvey["featuresToChange"]; ?></td>
-			<td><?php echo $frameworkSurvey["favoriteFeature"]; ?></td>
-			<td><?php echo $frameworkSurvey["suggestionFeature"]; ?></td>
-			<td><?php echo $frameworkSurvey["suggestionFramework"]; ?></td>
-			<td class="contact-delete">
+		<tr id="row<?php echo $frameworkSurvey['counter'];?>">
+  			<td id="name_val<?php echo $frameworkSurvey['counter'];?>"><?php echo $frameworkSurvey['name'];?></td>
+  			<td id="email_val<?php echo $frameworkSurvey['counter'];?>"><?php echo $frameworkSurvey['email'];?></td>
+  			<td id="favoriteFramework_val<?php echo $frameworkSurvey['counter'];?>"><?php echo $frameworkSurvey['favoriteFramework'];?></td>
+  			 <td id="featuresToChange_val<?php echo $frameworkSurvey['counter'];?>"><?php echo $frameworkSurvey['featuresToChange'];?></td>
+  			<td id="favoriteFeature_val<?php echo $frameworkSurvey['counter'];?>"><?php echo $frameworkSurvey['favoriteFeature'];?></td> 
+  			<td id="suggestionFeature_val<?php echo $frameworkSurvey['counter'];?>"><?php echo $frameworkSurvey['suggestionFeature'];?></td>
+  			<td id="suggestionFramework_val<?php echo $frameworkSurvey['counter'];?>"><?php echo $frameworkSurvey['suggestionFramework'];?></td>
 
-				<form action='edit.php?name="<?php echo $frameworkSurvey['name']; ?>"' method="post">
-        		<input type="hidden" name="name" value="<?php echo $frameworkSurvey['name']; ?>">
-				
-				<button class="orange lighten-1 btn waves-effect waves-light" type="submit" name="Submit" value="Edit">Edit</button>
-
-    			</form>
-
-
-    			<form action='delete.php?name="<?php echo $frameworkSurvey['name']; ?>"' method="post">
-        		<input type="hidden" name="name" value="<?php echo $frameworkSurvey['name']; ?>">
-				
-				<button class="orange lighten-1 btn waves-effect waves-light" type="submit" name="Submit" value="Delete">Delete</button>
-
-    			</form>
-
-    			
-			</td>
-		</tr>
+  			<td>
+   				<button class="orange lighten-1 btn waves-effect waves-light" class="edit_button" id="edit_button<?php echo $frameworkSurvey['counter'];?>" value="edit" onclick="edit_row('<?php echo $frameworkSurvey['counter'];?>');">Edit
+   				</button>
+   				<button class="orange lighten-1 btn waves-effect waves-light" class="save_button" id="save_button<?php echo $frameworkSurvey['counter'];?>" value="save" onclick="save_row('<?php echo $frameworkSurvey['counter'];?>');">Save
+   				</button>
+   				<button class="orange lighten-1 btn waves-effect waves-light" class="delete_button" id="delete_button<?php echo $frameworkSurvey['counter'];?>" value="delete" onclick="delete_row('<?php echo $frameworkSurvey['counter'];?>');">Delete
+   				</button>
+  			</td>
+ 		</tr>
+		
+		
 
 
 <?php } ?>
@@ -100,6 +91,8 @@
 <!-- Downloading jQuery and Materialize -->
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="js/materialize.min.js"></script>
+<script type="text/javascript" src="js/modify_database.js"></script>
+
 
 </body>
 </html>
