@@ -19,6 +19,21 @@
 <html>
 <head>
 	<title>Database Read - frameworkSurvey</title>
+
+	<!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css">
+	
+	<!--Import overrides.css-->
+    <link type="text/css" rel="stylesheet" href="css/overrides.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
 </head>
 <body>
 
@@ -49,7 +64,7 @@
         		<input type="submit" name="submit" value="Edit">
     			</form>
 
-    			
+
     			<form action='delete.php?name="<?php echo $frameworkSurvey['name']; ?>"' method="post">
         		<input type="hidden" name="name" value="<?php echo $frameworkSurvey['name']; ?>">
 
