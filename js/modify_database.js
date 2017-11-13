@@ -1,3 +1,5 @@
+// This was achieved with http://talkerscode.com/webtricks/add-edit-and-delete-records-using-jquery-ajax-php-and-mysql.php. The php file uses this as well
+
 function edit_row(id)
 {
  var name=document.getElementById("name_val"+id).innerHTML;
