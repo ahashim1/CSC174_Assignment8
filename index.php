@@ -38,25 +38,28 @@
 			<div class="col s7">
 
 			<p class="big">In the world of web design, to give a more straightforward definition, a framework is defined as a package made up of a structure of files and folders of standardized code (HTML, CSS, JS documents etc.) which can be used to support the development of websites, as a basis to start building a site. Most websites share a very similar (not to say identical) structure. The aim of frameworks is to provide a common structure so that developers don’t have to redo it from scratch and can reuse the code provided. In this way, frameworks allow us to cut out much of the work and save a lot of time.</p>
-
-			<p class="big">There are basically 2 types to differentiate: backend and frontend (this distinction is drawn depending on whether the framework is for the presentation layer or the application/ logical layer. It’s important to understand that frameworks are a conceptual notion: a pre-prepared standard kit from which to work. The concept of a framework can be applied to different processes carried out on the web: the programmer’s layer which connects the database to the site content and uses PHP language, and the designer’s layer, where that content must be presented in HTML documents with defined CSS style sheets so it can ultimately be viewed in a browser.</p>
-
-
-			<p class=”big”>We are going to specifically focus on frontend frameworks. Within front-end frameworks, commonly referred to as <em>"CSS frameworks"</em>, we can draw a distinction between two types of framework according to their complexity: simple frameworks and complete frameworks. This distinction is subjective, and doesn’t mean one is better than the others but rather that they give different solutions depending on the level of complexity and/ or flexibility required.</p>
-
-			<p class=”big”>Simple frameworks are often called simply “grid systems” but are frameworks nonetheless. They offer style sheets with column systems to facilitate the distribution of different elements according to the established design. An example of this framework would be <strong>Susy</strong>, which is based on Natalie Downe's CSS Systems, made possible by Sass, and made easy with Compass. You can use it anywhere, from static sites to Django, Rails, Wordpress and more. It even comes packaged as part of Middleman, to make your life easy.</p>
-
-			<p class=”big”> Complete frameworks usually offer complete frameworks with configurable features like styled-typography, sets of forms, buttons, icons and other reusable components built to provide navigation, alerts, popovers, and more, images frames, HTML templates, custom settings, etc. Some popular examples of complete frameworks are <em>Bootstrap</em> and <em>Foundation</em>. Bootstrap is a sleek, intuitive, and powerful front-end framework for faster and easier web development. It is the most popular one out there and has tons of stars on Github and lots of resources to get your questions answered. One of the easier ones to use, but some say it has a very distinctive “Bootstrap” look. Foundation is an advanced responsive front-end framework. Foundation is built with Sass, a powerful CSS preprocessor. It offers a lot of flexibility and customizability. Foundation is good for those who are experienced with front-end development and like to cover the basics while retaining a lot of creative control</p>
-
-			<p class=”big”>There are many different frameworks out there and it's up to the developer to decide which is best for them, looking at different factors and what each one offers. This user survey will explore which front-end frameworks are popular among users and what features of those frameworks they most appreciate.</p>
 			
 			</div>
 			
 			<div class="col s5">
 				<img src="images/frontend.jpg" class="right responsive-img" alt="">
 			</div>
+						
+			</div>
+
+			<p class="big">There are basically 2 types to differentiate: backend and frontend (this distinction is drawn depending on whether the framework is for the presentation layer or the application/ logical layer. It’s important to understand that frameworks are a conceptual notion: a pre-prepared standard kit from which to work. The concept of a framework can be applied to different processes carried out on the web: the programmer’s layer which connects the database to the site content and uses PHP language, and the designer’s layer, where that content must be presented in HTML documents with defined CSS style sheets so it can ultimately be viewed in a browser.</p>
 			
-		</div>
+			
+
+
+			<p class="big">We are going to specifically focus on frontend frameworks. Within front-end frameworks, commonly referred to as <em>"CSS frameworks"</em>, we can draw a distinction between two types of framework according to their complexity: simple frameworks and complete frameworks. This distinction is subjective, and doesn’t mean one is better than the others but rather that they give different solutions depending on the level of complexity and/ or flexibility required.</p>
+
+			<p class="big">Simple frameworks are often called simply “grid systems” but are frameworks nonetheless. They offer style sheets with column systems to facilitate the distribution of different elements according to the established design. An example of this framework would be <strong>Susy</strong>, which is based on Natalie Downe's CSS Systems, made possible by Sass, and made easy with Compass. You can use it anywhere, from static sites to Django, Rails, Wordpress and more. It even comes packaged as part of Middleman, to make your life easy.</p>
+
+			<p class="big"> Complete frameworks usually offer complete frameworks with configurable features like styled-typography, sets of forms, buttons, icons and other reusable components built to provide navigation, alerts, popovers, and more, images frames, HTML templates, custom settings, etc. Some popular examples of complete frameworks are <em>Bootstrap</em> and <em>Foundation</em>. Bootstrap is a sleek, intuitive, and powerful front-end framework for faster and easier web development. It is the most popular one out there and has tons of stars on Github and lots of resources to get your questions answered. One of the easier ones to use, but some say it has a very distinctive “Bootstrap” look. Foundation is an advanced responsive front-end framework. Foundation is built with Sass, a powerful CSS preprocessor. It offers a lot of flexibility and customizability. Foundation is good for those who are experienced with front-end development and like to cover the basics while retaining a lot of creative control</p>
+
+			<p class="big">There are many different frameworks out there and it's up to the developer to decide which is best for them, looking at different factors and what each one offers. This user survey will explore which front-end frameworks are popular among users and what features of those frameworks they most appreciate.</p>
+			
 
 			<!-- Content taken from https://www.awwwards.com/what-are-frameworks-22-best-responsive-css-frameworks-for-web-design.html and https://www.thebalance.com/what-is-a-front-end-framework-and-why-use-one-2071948-->
 
