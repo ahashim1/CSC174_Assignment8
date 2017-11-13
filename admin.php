@@ -44,6 +44,16 @@
 	<div class="charl">
 
 	<table border="1">
+		<tr>
+			<th>Name</th>
+			<th>Email</th>
+			<th>Favorite Framework</th>
+			<th>Features To Change</th>
+			<th>Favorite Feature</th>
+			<th>Suggested Features</th>
+			<th>Suggested Framework</th>
+			<th>Modify</th>
+		</tr>
 
 <?php
 	// 3. Use returned data (if any)

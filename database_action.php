@@ -26,15 +26,28 @@
     $recommend = mysqli_real_escape_string($connection, $recommend);
 
 
+    $total = count($_POST['feature']);
+    $i=0;
     // These print each checked box, working on inputting it into database
     if(isset($_POST['feature']))
         foreach ($_POST['feature'] as $featureName) {
-            echo $featureName;
+            $i++;
+
+            $feature .= $featureName;
+            if ($i != $total){
+                $feature .= ", ";
+            }
         }
 
+    $total = count($_POST['feature']);
+    $i=0;    
     if(isset($_POST['improveFeat']))
         foreach ($_POST['improveFeat'] as $improveFeatName) {
-            echo $improveFeatName;
+            $i++;
+           $improveFeat .= $improveFeatName;
+           if ($i != $total){
+                $improveFeat .= ", ";
+            }
         }
 
 
