@@ -53,11 +53,23 @@
 
 
 			<p class="big">We are going to specifically focus on frontend frameworks. Within front-end frameworks, commonly referred to as <em>"CSS frameworks"</em>, we can draw a distinction between two types of framework according to their complexity: simple frameworks and complete frameworks. This distinction is subjective, and doesn’t mean one is better than the others but rather that they give different solutions depending on the level of complexity and/ or flexibility required.</p>
+			
+			<div class="valign-wrapper row">
+			
+			<div class="col s5">
+				<img src="images/bootstrap.png" class="left responsive-img" alt="">
+			</div>
+			
+			<div class="col s7">
 
 			<p class="big">Simple frameworks are often called simply “grid systems” but are frameworks nonetheless. They offer style sheets with column systems to facilitate the distribution of different elements according to the established design. An example of this framework would be <strong>Susy</strong>, which is based on Natalie Downe's CSS Systems, made possible by Sass, and made easy with Compass. You can use it anywhere, from static sites to Django, Rails, Wordpress and more. It even comes packaged as part of Middleman, to make your life easy.</p>
 
-			<p class="big"> Complete frameworks usually offer complete frameworks with configurable features like styled-typography, sets of forms, buttons, icons and other reusable components built to provide navigation, alerts, popovers, and more, images frames, HTML templates, custom settings, etc. Some popular examples of complete frameworks are <em>Bootstrap</em> and <em>Foundation</em>. Bootstrap is a sleek, intuitive, and powerful front-end framework for faster and easier web development. It is the most popular one out there and has tons of stars on Github and lots of resources to get your questions answered. One of the easier ones to use, but some say it has a very distinctive “Bootstrap” look. Foundation is an advanced responsive front-end framework. Foundation is built with Sass, a powerful CSS preprocessor. It offers a lot of flexibility and customizability. Foundation is good for those who are experienced with front-end development and like to cover the basics while retaining a lot of creative control</p>
+			</div>
+			
+			</div>
 
+			<p class="big"> Complete frameworks usually offer complete frameworks with configurable features like styled-typography, sets of forms, buttons, icons and other reusable components built to provide navigation, alerts, popovers, and more, images frames, HTML templates, custom settings, etc. Some popular examples of complete frameworks are <em>Bootstrap</em> and <em>Foundation</em>. Bootstrap is a sleek, intuitive, and powerful front-end framework for faster and easier web development. It is the most popular one out there and has tons of stars on Github and lots of resources to get your questions answered. One of the easier ones to use, but some say it has a very distinctive “Bootstrap” look. Foundation is an advanced responsive front-end framework. Foundation is built with Sass, a powerful CSS preprocessor. It offers a lot of flexibility and customizability. Foundation is good for those who are experienced with front-end development and like to cover the basics while retaining a lot of creative control</p>
+		
 			<p class="big">There are many different frameworks out there and it's up to the developer to decide which is best for them, looking at different factors and what each one offers. This user survey will explore which front-end frameworks are popular among users and what features of those frameworks they most appreciate.</p>
 			
 
