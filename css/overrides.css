@@ -6,8 +6,8 @@
 
 /* From https://www.behance.net/gallery/30453085/Arciform-Free-Typeface */
 @font-face{
-    font-family: arc;
-    src: url("fonts/arciform.otf") format("opentype");
+  font-family: arc;
+  src: url("fonts/arciform.otf") format("opentype");
 }
 
 fieldset{
