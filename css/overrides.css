@@ -88,3 +88,7 @@ h1{
 .btn{
 	color: #424242;
 }
+
+button{
+	margin-bottom: 5px;
+}

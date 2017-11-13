@@ -18,7 +18,7 @@
 <!doctype html>
 <html>
 <head>
-	<title>Database Read - frameworkSurvey</title>
+	<title>Database Read - Framework Survey</title>
 
 	<!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -35,11 +35,15 @@
 	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
 </head>
-<body>
 
-	<h1>Database Read - frameworkSurvey</h1>
+<body class="grey darken-3">
+	<div class="container">
 
-	<table border>
+	<h1 class="arc center-align">Database Read - frameworkSurvey</h1>
+	
+	<div class="charl">
+
+	<table border="1">
 
 <?php
 	// 3. Use returned data (if any)
@@ -60,15 +64,17 @@
 
 				<form action='edit.php?name="<?php echo $frameworkSurvey['name']; ?>"' method="post">
         		<input type="hidden" name="name" value="<?php echo $frameworkSurvey['name']; ?>">
-        		
-        		<input type="submit" name="submit" value="Edit">
+				
+				<button class="orange lighten-1 btn waves-effect waves-light" type="submit" name="Submit" value="Edit">Edit</button>
+
     			</form>
 
 
     			<form action='delete.php?name="<?php echo $frameworkSurvey['name']; ?>"' method="post">
         		<input type="hidden" name="name" value="<?php echo $frameworkSurvey['name']; ?>">
+				
+				<button class="orange lighten-1 btn waves-effect waves-light" type="submit" name="Submit" value="Delete">Delete</button>
 
-        		<input type="submit" name="submit" value="Delete">
     			</form>
 
     			
@@ -78,10 +84,17 @@
 
 <?php } ?>
 
-	</table>
-
-	<br>
-	<a href=".">Back to the Index</a>
+	</table>	
+	
+	<div class="center-align">
+	
+	<a class="orange lighten-1 btn waves-effect waves-light">Back to Index</a>
+	
+	</div>
+	
+	</div>
+	
+	</div>
 
 
 <!-- Downloading jQuery and Materialize -->
