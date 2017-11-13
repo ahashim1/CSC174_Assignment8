@@ -18,7 +18,7 @@
 <!doctype html>
 <html>
 <head>
-	<title>Database Read - Framework Survey</title>
+	<title>Framework Survey Table</title>
 
 	<!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -39,11 +39,12 @@
 <body class="grey darken-3">
 	<div class="container">
 
-	<h1 class="arc center-align">Database Read - Framework Survey</h1>
+	<h1 class="arc center-align">Framework Survey</h1>
 	
 	<div class="charl">
 
-	<table border="1">
+	<p>This table represents the results from your survey on frameworks. You can modify and delete each row, and it will update the MySQL database, and see the results so that you can results for any purpose you</p>
+	<table>
 		<tr>
 			<th>Name</th>
 			<th>Email</th>
