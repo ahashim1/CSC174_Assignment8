@@ -96,3 +96,7 @@ button{
 td, table{
 	border: 1px solid #eeeeee;
 }
+
+button.save_button{
+  display: none;
+}

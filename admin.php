@@ -61,11 +61,11 @@
   			<td id="suggestionFramework_val<?php echo $frameworkSurvey['counter'];?>"><?php echo $frameworkSurvey['suggestionFramework'];?></td>
 
   			<td>
-   				<button class="orange lighten-1 btn waves-effect waves-light" class="edit_button" id="edit_button<?php echo $frameworkSurvey['counter'];?>" value="edit" onclick="edit_row('<?php echo $frameworkSurvey['counter'];?>');">Edit
+   				<button class="edit_button orange lighten-1 btn waves-effect waves-light" id="edit_button<?php echo $frameworkSurvey['counter'];?>" value="edit" onclick="edit_row('<?php echo $frameworkSurvey['counter'];?>');">Edit
    				</button>
-   				<button class="orange lighten-1 btn waves-effect waves-light" class="save_button" id="save_button<?php echo $frameworkSurvey['counter'];?>" value="save" onclick="save_row('<?php echo $frameworkSurvey['counter'];?>');">Save
+   				<button  class="save_button orange lighten-1 btn waves-effect waves-light" id="save_button<?php echo $frameworkSurvey['counter'];?>" value="save" onclick="save_row('<?php echo $frameworkSurvey['counter'];?>');">Save
    				</button>
-   				<button class="orange lighten-1 btn waves-effect waves-light" class="delete_button" id="delete_button<?php echo $frameworkSurvey['counter'];?>" value="delete" onclick="delete_row('<?php echo $frameworkSurvey['counter'];?>');">Delete
+   				<button class="delete_button orange lighten-1 btn waves-effect waves-light" id="delete_button<?php echo $frameworkSurvey['counter'];?>" value="delete" onclick="delete_row('<?php echo $frameworkSurvey['counter'];?>');">Delete
    				</button>
   			</td>
  		</tr>
