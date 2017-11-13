@@ -90,7 +90,7 @@
 	
 	<div class="center-align">
 	
-	<a class="orange lighten-1 btn waves-effect waves-light">Back to Index</a>
+	<a class="orange lighten-1 btn waves-effect waves-light" href="index.php">Back to Index</a>
 	
 	</div>
 	
