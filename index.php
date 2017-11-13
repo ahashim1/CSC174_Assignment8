@@ -99,7 +99,7 @@
 
 				<legend class="big">Front-End Frameworks</legend>
 
-				<h3>What is your favorite front-end framework?</h3>
+				<h3>1. What is your favorite front-end framework?</h3>
 				
 				<div class="boxes">
 				
@@ -155,7 +155,7 @@
 					
 				</div>
 	
-				<h3>Which features of this front-end framework are the most important to you?</h3>
+				<h3>2. Which features of this front-end framework are the most important to you?</h3>
 				
 					<div class="boxes">
 					
@@ -196,7 +196,7 @@
 				
 					</div>
 
-				<h3>Which features do you think this front-end framework can improve on?</h3>
+				<h3>3. Which features do you think this front-end framework can improve on?</h3>
 				
 					<div class="boxes">
 					
@@ -246,13 +246,13 @@
 				
 					<div class="input-field col s12">
 						<textarea name="suggestion" id="suggestion" class="materialize-textarea" data-length="300"></textarea>
-						<label class="big" for="suggestion">What kind of features would you like to see added?</label>
+						<label class="big" for="suggestion">4. What kind of features would you like to see added?</label>
 					</div>
 					
 
 					<div class="input-field col s12">
 						<textarea name="recommend" id="recommend" class="materialize-textarea" data-length="300"></textarea>
-						<label class="big" for="recommend">Do you recommend any other front-end frameworks not listed in this survey?</label>
+						<label class="big" for="recommend">5. Do you recommend any other front-end frameworks not listed in this survey?</label>
 					</div>
 					
 					<div class="center-align">
