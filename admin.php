@@ -43,7 +43,7 @@
 	
 	<div class="charl">
 
-	<p>This table represents the results from your survey on frameworks. You can modify and delete each row, and it will update the MySQL database, and see the results so that you can results for any purpose you</p>
+	<p>This table represents the results from your survey on frameworks. You can modify and delete each row, and it will update the MySQL database, and see the results so that you can results for any purpose you desire.</p>
 	<table>
 		<tr>
 			<th>Name</th>
