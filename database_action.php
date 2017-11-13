@@ -68,50 +68,25 @@
 <html>
 <head>
 
-    <title>Processing Contact Form</title>
+    <title>Framework Survey Result</title>
 
     
 </head>
 <body>
 
-    <h1>Processing contact information</h1>
+    <h1>Framework Survey</h1>
 
 <?php
     if ($result) {
-        echo "Success! - the query didn't error-out";
+        echo "Your submission has been recorded.";
+    } 
 
-?>
-
-<p>This just happened:<br>
-<pre>
-    $name = Trim(stripslashes($_POST['name']));
-    $email = Trim(stripslashes($_POST['email']));
-    $suggestion = Trim(stripslashes($_POST['suggestion']));
-
-    // Escape all strings
-    $name = mysqli_real_escape_string($connection, $name);
-    $email = mysqli_real_escape_string($connection, $email);
-    $suggestion = mysqli_real_escape_string($connection, $suggestion);
-
-    
-
-    // // 2. Perform database query
-    $query  = "INSERT INTO frameworkSurvey (";
-    $query .= "  name, email, suggestion";
-    $query .= ") VALUES (";
-    $query .= "  '{$name}', '{$email}', '{$suggestion}'";
-    $query .= ")";
-</pre>
-</p>
-
-<?php
-
-    } else {
-        die("Database query failed.");
+    else {
+        die("Whoops, it looks like something went wrong.");
     }
 ?>
     <br>
-    <a href="contacts-list.php">Continue</a>
+    <a href="index.php">Back to Survey</a>
 
 </body>
 </html>
