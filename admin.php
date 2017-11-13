@@ -39,7 +39,7 @@
 <body class="grey darken-3">
 	<div class="container">
 
-	<h1 class="arc center-align">Database Read - frameworkSurvey</h1>
+	<h1 class="arc center-align">Database Read - Framework Survey</h1>
 	
 	<div class="charl">
 

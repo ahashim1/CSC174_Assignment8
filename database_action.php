@@ -65,21 +65,15 @@
 
 <?php
     if ($result) {
-        echo "Success! - the query didn't error-out";
+        echo "Your submission has been recorded.";
+    } 
 
-?>
-
-    <h2>Your submission has been recorded.</h2>
-
-
-<?php
-
-    } else {
+    else {
         die("Whoops, it looks like something went wrong.");
     }
 ?>
     <br>
-    <a href="contacts-list.php">Continue</a>
+    <a href="index.php">Back to Survey</a>
 
 </body>
 </html>
