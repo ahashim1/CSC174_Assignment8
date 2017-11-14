@@ -90,7 +90,7 @@
     
     <div class="container">
     
-        <div class="charl">
+        <div class="charl center-align">
 
         <header>
 

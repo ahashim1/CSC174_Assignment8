@@ -99,7 +99,7 @@
 
 				<legend class="big">Front-End Frameworks</legend>
 
-				<div class="big">What is your favorite front-end framework?</div>
+				<div class="questiontitle">What is your favorite front-end framework?</div>
 				
 				<div class="boxes">
 				
@@ -156,7 +156,7 @@
 				</div>
 
 	
-				<div class="big">Which features of this front-end framework are the most important to you?</div>
+				<div class="questiontitle">Which features of this front-end framework are the most important to you?</div>
 				
 					<div class="boxes">
 					
@@ -198,7 +198,7 @@
 					</div>
 
 
-				<div class="big">Which features do you think this front-end framework can improve on?</div>
+				<div class="questiontitle">Which features do you think this front-end framework can improve on?</div>
 				
 					<div class="boxes">
 					
@@ -271,7 +271,7 @@
 			
 		</div>
 
-<!-- Downloading jQuery and Materialize -->
+<!-- Downloading jQuery and Materialize file for JS -->
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="js/materialize.min.js"></script>
 					
