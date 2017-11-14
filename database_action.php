@@ -100,7 +100,7 @@
 
                     <?php
                         if ($result) {
-                            echo "Thank you for completing the user survey. Your submission has been successfully recorded!";
+                            echo "Thank you for completing the user survey $name. Your submission has been successfully recorded!";
                         } 
 
                         else {
