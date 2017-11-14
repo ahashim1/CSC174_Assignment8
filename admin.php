@@ -39,18 +39,19 @@
 <body class="grey darken-3">
 	<div class="container">
 
-	<h1 class="arc center-align">Framework Survey</h1>
+	<h1 class="arc center-align">Framework Survey: Database Table</h1>
 	
 	<div class="charl">
 
-	<p>This table represents the results from your survey on frameworks. You can modify and delete each row, and it will update the MySQL database, and see the results so that you can results for any purpose you desire.</p>
+	<p>This table represents the results from your user survey on frameworks. You can modify the data by clicking the <em>"edit"</em> button. Be sure to click <em>"save"</em> after you are done editing. You also have the option to <em>"delete"</em> each row. This will update the MySQL database and you will be able to see your new, manipulated results.</p>
+
 	<table>
 		<tr>
 			<th>Name</th>
 			<th>Email</th>
 			<th>Favorite Framework</th>
-			<th>Features To Change</th>
-			<th>Favorite Feature</th>
+			<th>Favorite Features</th>
+			<th>Features To Improve</th>
 			<th>Suggested Features</th>
 			<th>Suggested Framework</th>
 			<th>Modify</th>
@@ -90,7 +91,7 @@
 	
 	<div class="center-align">
 	
-	<a class="orange lighten-1 btn waves-effect waves-light" href="index.php">Back to Index</a>
+	<a class="orange lighten-1 btn waves-effect waves-light" href="index.php">Back to Survey</a>
 	
 	</div>
 	

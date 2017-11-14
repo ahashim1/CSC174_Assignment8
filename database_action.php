@@ -68,23 +68,24 @@
 <html>
 <head>
 
-    <title>Framework Survey Result</title>
+    <title>Framework Survey Results</title>
 
     
 </head>
 <body>
 
-    <h1>Framework Survey</h1>
+    <h1>Framework Survey Completed</h1>
 
 <?php
     if ($result) {
-        echo "Your submission has been recorded.";
+        echo "Thank you for your time. Your submission has been successfully recorded!";
     } 
 
     else {
         die("Whoops, it looks like something went wrong.");
     }
 ?>
+    <br>
     <br>
     <a href="index.php">Back to Survey</a>
 
