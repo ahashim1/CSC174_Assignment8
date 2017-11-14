@@ -63,35 +63,64 @@
     $result = mysqli_query($connection, $query);
 
 ?>
-
-<!doctype html>
+<!DOCTYPE html>
 <html>
+
 <head>
-
-    <title>Framework Survey Results</title>
-
+    <meta charset="utf-8">
+    <title>Assignment 8 - Frameworks Survey</title>
     
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css">
+    
+    <!--Import overrides.css-->
+    <link type="text/css" rel="stylesheet" href="css/overrides.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 </head>
-<body>
 
-    <h1>Framework Survey Completed</h1>
+<body class="grey darken-3">
+    
+    <div class="container">
+    
+        <div class="charl">
 
-<?php
-    if ($result) {
-        echo "Thank you for your time. Your submission has been successfully recorded!";
-    } 
+        <header>
 
-    else {
-        die("Whoops, it looks like something went wrong.");
-    }
-?>
-    <br>
-    <br>
-    <a href="index.php">Back to Survey</a>
+            <h1>Survey Submission</h1>
 
+        </header>
+
+                    <?php
+                        if ($result) {
+                            echo "Thank you for completing the user survey. Your submission has been successfully recorded!";
+                        } 
+
+                        else {
+                            die("Whoops, it looks like something went wrong.");
+                        }
+                    ?>
+                        <br>
+                        <br>
+                        <a href="index.php">Back to Survey</a>
+            
+        </div>
+
+    </div>
+<!-- Downloading jQuery and Materialize -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+                    
 </body>
-</html>
 
+</html>
 
 
 

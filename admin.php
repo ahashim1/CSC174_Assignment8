@@ -18,7 +18,7 @@
 <!doctype html>
 <html>
 <head>
-	<title>Framework Survey Table</title>
+	<title>Frameworks Survey Table</title>
 
 	<!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -39,11 +39,11 @@
 <body class="grey darken-3">
 	<div class="container">
 
-	<h1 class="arc center-align">Framework Survey: Database Table</h1>
+	<h1 class="arc center-align">Frameworks Survey: Database Table</h1>
 	
 	<div class="charl">
 
-	<p>This table represents the results from your user survey on frameworks. You can modify the data by clicking the <em>"edit"</em> button. Be sure to click <em>"save"</em> after you are done editing. You also have the option to <em>"delete"</em> each row. This will update the MySQL database and you will be able to see your new, manipulated results.</p>
+	<p>This table represents the results from your user survey on frameworks. You may modify the data by clicking the "EDIT" button. Be sure to click "SAVE" after you are done editing. You also have the option to "DELETE" each row. This will update the MySQL database and you will be able to see your new, manipulated results.</p>
 
 	<table>
 		<tr>
@@ -51,7 +51,7 @@
 			<th>Email</th>
 			<th>Favorite Framework</th>
 			<th>Favorite Features</th>
-			<th>Features To Improve</th>
+			<th>Features to Change</th>
 			<th>Suggested Features</th>
 			<th>Suggested Framework</th>
 			<th>Modify</th>
