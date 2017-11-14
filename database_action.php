@@ -97,7 +97,7 @@
 
                     <?php
                         if ($result) {
-                            echo "Thank you for completing the user survey $name. Your submission has been successfully recorded!";
+                            echo "Thanks for completing the survey, $name. Your submission has been successfully recorded!";
                         } 
 
                         else {
@@ -106,7 +106,8 @@
                     ?>
                         <br>
                         <br>
-                        <a href="index.php">Back to Survey</a>
+
+						<a href="index.php" class="orange lighten-1 btn waves-effect waves-light">Back to Index</a>
             
         </div>
 
