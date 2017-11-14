@@ -75,7 +75,7 @@
   			<td>
    				<button class="edit_button orange lighten-1 btn waves-effect waves-light" id="edit_button<?php echo $frameworkSurvey['counter'];?>" value="edit" onclick="edit_row('<?php echo $frameworkSurvey['counter'];?>');">Edit
    				</button>
-   				<button  class="save_button orange lighten-1 btn waves-effect waves-light" id="save_button<?php echo $frameworkSurvey['counter'];?>" value="save" onclick="save_row('<?php echo $frameworkSurvey['counter'];?>');">Save
+   				<button  class="save_button orange lighten-1 btn waves-effect waves-light" id="save_button<?php echo $frameworkSurvey['counter'];?>" value="save" onclick="save_row('<?php echo $frameworkSurvey['counter'];?>'); Materialize.toast('Saved', 4000)">Save
    				</button>
 
 				<!-- Modal Trigger -->
@@ -121,10 +121,14 @@
 
 <!-- Script for alert popups -->
 <script type="text/javascript">
+	// Materialize.toast(message, displayLength, className, completeCallback);
+	Materialize.toast('Saved', 4000) // 4000 is the duration of the toast
+
 	$(document).ready(function(){
     // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
     $('.modal').modal();
-  });</script>
+	});
+</script>
 
 
 </body>
