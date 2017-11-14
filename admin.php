@@ -64,6 +64,7 @@
 ?>	
 
 		<tr id="row<?php echo $frameworkSurvey['counter'];?>">
+			<td id="counter_val<?php echo $frameworkSurvey['counter'];?>"><?php echo $frameworkSurvey['counter'];?></td>
   			<td id="name_val<?php echo $frameworkSurvey['counter'];?>"><?php echo $frameworkSurvey['name'];?></td>
   			<td id="email_val<?php echo $frameworkSurvey['counter'];?>"><?php echo $frameworkSurvey['email'];?></td>
   			<td id="favoriteFramework_val<?php echo $frameworkSurvey['counter'];?>"><?php echo $frameworkSurvey['favoriteFramework'];?></td>
