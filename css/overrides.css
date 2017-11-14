@@ -104,3 +104,9 @@ table{
 button.save_button{
   display: none;
 }
+
+.questiontitle{
+	font-size: 200%;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
