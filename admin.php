@@ -1,6 +1,8 @@
+
+
 <?php
 	// 1. Create a database connection
-	include 'db_info.php';
+	    include 'db_info.php';
 
 
 	$connection = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
