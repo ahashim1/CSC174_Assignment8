@@ -1,9 +1,7 @@
 <?php
     // 1. Create a database connection
-    $dbhost = "66.147.242.186";
-    $dbuser = "urcscon3_sanfran";
-    $dbpass = "coffee1N";
-    $dbname = "urcscon3_sanfrancisco";
+    include 'db_info.php';
+
 
     $connection = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 
@@ -22,7 +20,9 @@
     $suggestion = mysqli_real_escape_string($connection, $suggestion);
     $recommend = mysqli_real_escape_string($connection, $recommend);
 
-
+    $feature = "";
+    $improveFeat = "";
+    
     $total = count($_POST['feature']);
     $i=0;
     // These print each checked box, working on inputting it into database

@@ -1,10 +1,7 @@
 <?php
 
 // This was achieved with http://talkerscode.com/webtricks/add-edit-and-delete-records-using-jquery-ajax-php-and-mysql.php
-$dbhost = "66.147.242.186";
-$dbuser = "urcscon3_sanfran";
-$dbpass = "coffee1N";
-$dbname = "urcscon3_sanfrancisco";
+include 'db_info.php';
 
 $connection = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 

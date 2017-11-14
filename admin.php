@@ -1,9 +1,7 @@
 <?php
 	// 1. Create a database connection
-	$dbhost = "66.147.242.186";
-    $dbuser = "urcscon3_sanfran";
-    $dbpass = "coffee1N";
-    $dbname = "urcscon3_sanfrancisco";
+	include 'db_info.php';
+
 
 	$connection = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 
