@@ -77,8 +77,6 @@
    				</button>
    				<button  class="save_button orange lighten-1 btn waves-effect waves-light" id="save_button<?php echo $frameworkSurvey['counter'];?>" value="save" onclick="save_row('<?php echo $frameworkSurvey['counter'];?>');">Save
    				</button>
-   				<!-- <button data-target="modal1" class=" modal-trigger orange lighten-1 btn waves-effect waves-light">Delete
-   				</button> -->
 
 				<!-- Modal Trigger -->
 				<a class="waves-effect orange lighten-1 waves-effect waves-light btn modal-trigger" href="#modal1">Delete</a>
@@ -94,6 +92,7 @@
 						<a href="#!" class="delete_button modal-action modal-close waves-effect waves-green btn-flat" id="delete_button<?php echo $frameworkSurvey['counter'];?>" value="delete" onclick="delete_row('<?php echo $frameworkSurvey['counter'];?>');">Delete</a>
 					</div>
 				</div>
+
   			</td>
  		</tr>
 		
@@ -120,6 +119,7 @@
 <script type="text/javascript" src="js/materialize.min.js"></script>
 <script type="text/javascript" src="js/modify_database.js"></script>
 
+<!-- Script for alert popups -->
 <script type="text/javascript">
 	$(document).ready(function(){
     // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
