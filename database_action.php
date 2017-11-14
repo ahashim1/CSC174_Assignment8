@@ -11,8 +11,7 @@
     $name = Trim(stripslashes($_POST['name']));
     $email = Trim(stripslashes($_POST['email']));
     $framework = Trim(stripslashes($_POST['framework']));
-    $feature = Trim(stripslashes($_POST['feature']));
-    $improveFeat = Trim(stripslashes($_POST['improveFeat']));
+    
     $suggestion = Trim(stripslashes($_POST['suggestion']));
     $recommend = Trim(stripslashes($_POST['recommend']));
 
@@ -20,8 +19,6 @@
     $name = mysqli_real_escape_string($connection, $name);
     $email = mysqli_real_escape_string($connection, $email);
     $framework = mysqli_real_escape_string($connection, $framework);
-    $feature = mysqli_real_escape_string($connection, $feature);
-    $improveFeat = mysqli_real_escape_string($connection, $improveFeat);
     $suggestion = mysqli_real_escape_string($connection, $suggestion);
     $recommend = mysqli_real_escape_string($connection, $recommend);
 
