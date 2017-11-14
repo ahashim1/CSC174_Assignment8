@@ -80,20 +80,8 @@
    				<button  class="save_button orange lighten-1 btn waves-effect waves-light" id="save_button<?php echo $frameworkSurvey['counter'];?>" value="save" onclick="save_row('<?php echo $frameworkSurvey['counter'];?>'); Materialize.toast('Saved', 4000)">Save
    				</button>
 
-				<!-- Modal Trigger -->
-				<a class="waves-effect orange lighten-1 waves-effect waves-light btn modal-trigger" href="#modal1">Delete</a>
-
-				<!-- Modal Structure -->
-				<div id="modal1" class="modal">
-					<div class="modal-content">
-						<h1>Warning</h1>
-						<p>Are you sure you want to delete this row?</p>
-					</div>
-					<div class="modal-footer">
-						<a href="#!" class="modal-action modal-close waves-effect waves-red btn-flat ">Cancel</a>
-						<a href="#!" class="delete_button modal-action modal-close waves-effect waves-green btn-flat" id="delete_button<?php echo $frameworkSurvey['counter'];?>" value="delete" onclick="delete_row('<?php echo $frameworkSurvey['counter'];?>');">Delete</a>
-					</div>
-				</div>
+   				<button class="delete_button orange lighten-1 btn waves-effect waves-light" id="delete_button<?php echo $frameworkSurvey['counter'];?>" value="delete" onclick="delete_row('<?php echo $frameworkSurvey['counter'];?>'); Materialize.toast('Delete', 4000)">Delete
+   				</button>
 
   			</td>
  		</tr>
@@ -125,11 +113,7 @@
 <script type="text/javascript">
 	// Materialize.toast(message, displayLength, className, completeCallback);
 	Materialize.toast('Saved', 4000) // 4000 is the duration of the toast
-
-	$(document).ready(function(){
-    // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
-    $('.modal').modal();
-	});
+	Materialize.toast('Delete', 4000) // 4000 is the duration of the toast
 </script>
 
 
