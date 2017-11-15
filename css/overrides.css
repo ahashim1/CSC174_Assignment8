@@ -33,7 +33,7 @@ h1{
 
 .big{
 
-	font-size: 150%;
+	font-size: 120%;
 }
 
 /* label color */
@@ -79,6 +79,10 @@ h1{
 
 [type="radio"]:not(:checked)+label:before, [type="radio"]:not(:checked)+label:after {
     border: 2px solid #eeeeee;
+}
+
+[type="checkbox"]+label:before, [type="checkbox"]:not(.filled-in)+label:after {
+	border: 2px solid #eeeeee;
 }
 
 .boxes label{
